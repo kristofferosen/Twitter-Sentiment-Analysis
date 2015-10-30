@@ -1,0 +1,52 @@
+<html>
+<head>
+
+<link href="css/stil.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+
+<script src="js/bootstrap.js"></script>
+ 
+</head>
+
+<body>
+
+<div>
+	{{{ body }}}
+</div>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+    $(document).ready(function(){
+    	$("#butt").click(function(){
+    		
+            if($('input[name="in"]').val() != ''){
+              window.location.search = "";
+    		  var go = "query=" + $('input[name="in"]').val();
+              window.location.search = go;
+            }
+    	});
+
+        $('input[name="in"]').keyup(function (e) {
+            if (e.keyCode == 13) {
+                if($('input[name="in"]').val() != ''){
+                    window.location.search = "";
+                    var go = "query=" + $('input[name="in"]').val();
+                    window.location.search = go;
+                }         
+            }
+        });
+
+    	$("#do_a_buttload").click(function(){
+    		alert("buttload");
+    		//alert($('input[name="in"]').val()); 
+    		//alert(window.location.href);
+    		window.location.search = "";
+    		window.location.search = "query=do_a_buttload";   		
+    	});
+    });
+</script>
+
+</body>
+</html>

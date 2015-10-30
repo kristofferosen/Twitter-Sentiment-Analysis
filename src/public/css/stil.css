@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:400,900);
+
+div.twitter-tweet-rendered p.entry-title {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    padding: 5px !important;
+    background: #eee !important;
+    max-width: 300px !important;
+}
+
+div.twitter-tweet-rendered p.entry-title a.link {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+}
+
+div.twitter-tweet-rendered div.twt-border {
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+div.twitter-tweet-rendered iframe.twt-follow-button { display: none !important; }
+
+div.twitter-tweet-rendered div.footer ul.twt-actions {display: none !important;}
+
+div.twitter-tweet-rendered div.footer a.view-details {
+    display:block !important;
+    width: 120px !important;
+    margin: 5px 0 !important;
+    padding: 7px 0 !important;
+    background: #000 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 13px !important;
+    text-align: center !important;
+    box-shadow: -1px -1px 2px #555 !important;
+}
+    
+div.twitter-tweet-rendered div.footer a.view-details span {
+    font: 14px Georgia, serif !important;
+    color: #fff !important;
+}
+
+#hode {
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f6f5f3;
+
+  text-align: left;
+  padding-right: 2%;
+  padding-left: 2%;
+  height:66%;
+  
+   background-position: center;
+  background-size: cover;
+
+  margin-bottom: 3%;
+
+}
+
+#sokefelt{
+  width: 400px;
+  margin-left: 0%;
+  margin-right: auto;
+  background-color: #3d3d3d;
+  margin-top: 1%;
+
+}
+
+#tweet_section{
+ 
+  margin-right: auto;
+  padding-top: 10%;
+  margin-bottom: auto;
+  text-align: center;
+  display: inline;
+  background-color: #f6f5f3;
+  
+}
+
+
+.tweetisection{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  text-align: center;
+
+ 
+
+}
+
+#overskrift{
+
+  font-family: 'Passion One', cursive;
+  font-size: 13vh;
+  padding-top: 2%;
+  width: 66%;
+  color: #f6f5f3;
+  margin-top: 0%;
+}
+
+#sentimental_div{
+  padding-top: 0%;
+  margin-right: 2%;
+  
+  float:right;
+
+
+}
+#sentimental_img{
+   background-position: center;
+  background-size: cover;
+  height: 66px;
+  width:66px;
+  float: right;
+
+}
+#sentimental_text{
+   padding-top:1%;
+  font-size: 3vh;
+  float:left;
+}
+#header_flow{
+  display: inline;
+  padding-left: 0%;
+  list-style-type: none;
+  font-size: 100%;
+  
+}
+#do_a_buttload{
+ float: right;
+}
+#response{
+  padding-top:2%;
+  width:400px;
+}
+#colum_1{
+   margin-left: 2%;
+  width:30%;
+  display:block;
+  float:left;
+
+}
+#colum_2{
+  display:block;
+  width:30%;
+  float:left;
+  
+
+}
+#colum_3{
+  width:30%;
+  display:block;
+  float:right;
+  margin-right: 7%;
+}
+
+#introtext{
+  font-size: 2vh;
+}
+#twitter_color{
+  color: #5ea9dd;
+}
+

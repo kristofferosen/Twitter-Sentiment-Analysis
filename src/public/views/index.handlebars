@@ -1,0 +1,64 @@
+
+<section id="hode" style ="background-image:url('{{sentiment_url}}');"">
+  <h1 id="overskrift">What does<br> <span id="twitter_color">twitter</span> think<br> about it?</h1>
+
+    <p id="introtekst">Search for a topic and see what twitter thinks about it</p>
+
+    <div id="sokefelt" class="input-group stylish-input-group">
+        <input type="text" name ="in" class="form-control"  placeholder="Search" >
+            <span id="addon" class="input-group-addon">
+            <button type="submit" id ="butt">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>  
+            </span>
+    </div>
+
+    <p id="sentimental_text">{{emotion}}</p>
+            
+    <button id="do_a_buttload" type="button" class="btn btn-default"> Generate load </button>   
+</section>
+
+<section id="tweet_section">
+    <div id = colum_1>
+        {{#each colum1}}
+        <div class="tweetisection">
+            <blockquote class="twitter-tweet">
+                <p>
+                    {{url}}
+                </p>
+               
+                <a href="{{url}}"></a>
+                               
+            </blockqoute>    
+        </div>
+        {{/each}}
+    </div>
+    <div id = colum_2>
+        {{#each colum2}}
+        <div class="tweetisection">
+            <blockquote class="twitter-tweet">
+                <p>
+                    {{url}}
+                </p> 
+               
+                <a href="{{url}}"></a>
+                             
+            </blockqoute>    
+        </div>
+        {{/each}}
+    </div>
+    <div id = colum_3>
+        {{#each colum3}}
+        <div class="tweetisection">
+            <blockquote class="twitter-tweet">
+                <p>
+                    {{url}}
+                </p>
+               
+                <a href="{{url}}"></a>
+                              
+            </blockqoute>    
+        </div>
+        {{/each}}
+    </div>
+</section>
