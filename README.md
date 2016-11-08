@@ -1,4 +1,6 @@
-# Twitter Sentiment Analysis Application
+#What does Twitter Think About It
+
+Twitter Sentiment Analysis Application
 
 A web application made for a project in CAB432 at Queensland University of Technology
 
